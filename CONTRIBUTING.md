@@ -13,10 +13,10 @@ Much of the issues, goals and ideas are tracked in the respective projects in Gi
 In order to contribute code please:
 
 1. Fork the project on GitHub
-2. Clone the project
-3. Add changes (and tests)
-4. Commit and push
-5. Create a merge-request
+1. Clone the project
+1. Add changes (and tests)
+1. Commit and push
+1. Create a merge-request
 
 To have your code merged, see the expectations listed below.
 

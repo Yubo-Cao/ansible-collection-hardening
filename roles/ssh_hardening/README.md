@@ -37,7 +37,7 @@ As this role requires root-privileges, we added `become: true` to all tasks. So 
   - Description: one or more ip addresses, to which ssh-server should listen to. Default is all IPv4 adresses, but should be configured to specific addresses for security reasons!
 - `ssh_host_key_files`
   - Default: `[]`
-  - Description: Host keys for sshd. If empty ['/etc/ssh/ssh_host_rsa_key', '/etc/ssh/ssh_host_ecdsa_key', '/etc/ssh/ssh_host_ed25519_key'] will be used, as far as supported by the installed sshd version.
+  - Description: Host keys for sshd. If empty \['/etc/ssh/ssh_host_rsa_key', '/etc/ssh/ssh_host_ecdsa_key', '/etc/ssh/ssh_host_ed25519_key'\] will be used, as far as supported by the installed sshd version.
 - `ssh_host_rsa_key_size`
   - Default: `4096`
   - Description: Specifies the number of bits in the private host RSA key to create.

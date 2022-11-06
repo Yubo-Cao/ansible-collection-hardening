@@ -510,7 +510,7 @@ We know that this is the case on Raspberry Pi.
   - Default: `True`
   - Description: Configure filesystem for existence of .netrc file in homedir
 - `os_netrc_whitelist_user`
-  - Default: ``
+  - Default: \`\`
   - Description: Add list of user to allow creation of .netrc in users homedir
 
 ## Packages
